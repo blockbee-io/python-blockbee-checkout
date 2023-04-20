@@ -26,15 +26,15 @@ or
 ### Importing in your project file
 
 ```python
-import BlockBeeCheckout
+from BlockBee import BlockBeeCheckoutHelper
 ```
 
 ### Generate a Payment Checkout page
 
 ```python
-import BlockBeeCheckout
+from BlockBee import BlockBeeCheckoutHelper
 
-bb = BlockBeeCheckout.Helper(api_key, params, bb_params)
+bb = BlockBeeCheckoutHelper(api_key, params, bb_params)
 
 payment_page = bb.payment_request(redirect_url, value)
 ```
@@ -52,9 +52,9 @@ Where:
 
 ### Requesting Deposit
 ```python
-import BlockBeeCheckout
+from BlockBee import BlockBeeCheckoutHelper
 
-bb = BlockBeeCheckout.Helper(api_key, params, bb_params)
+bb = BlockBeeCheckoutHelper(api_key, params, bb_params)
 
 deposit_page = bb.deposit_request(notify_url)
 ```
@@ -76,3 +76,6 @@ Contact us @ https://blockbee.io/contacts/
 
 #### 1.0.0
 * Initial Release
+
+#### 1.0.1
+* Minor bugfixes

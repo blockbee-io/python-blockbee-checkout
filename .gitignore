@@ -1,5 +1,5 @@
 .idea
 .DS_STORE
 __pycache__
-dist
-python_blockbee.egg-info
+dist/
+python_blockbee_checkout.egg-info/
