@@ -2,4 +2,4 @@
 .DS_STORE
 __pycache__
 dist/
-python_blockbee_checkout.egg-info/
+python_blockbee_checkout.egg-info

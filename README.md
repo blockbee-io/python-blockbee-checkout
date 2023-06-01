@@ -79,3 +79,6 @@ Contact us @ https://blockbee.io/contacts/
 
 #### 1.0.1
 * Minor bugfixes
+
+#### 1.0.2
+* Minor bugfixes
