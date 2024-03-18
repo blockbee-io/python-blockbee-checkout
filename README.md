@@ -4,6 +4,8 @@
 # BlockBee's Python Library
 Python implementation of BlockBee's payment gateway
 
+##  Deprecated! It has been integrated into [python-blockbee](https://github.com/blockbee-io/python-blockbee).
+
 ## Requirements:
 
 ```
@@ -58,6 +60,7 @@ bb = BlockBeeCheckoutHelper(api_key, params, bb_params)
 
 deposit_page = bb.deposit_request(notify_url)
 ```
+
 * ``api_key`` is the API Key provided by our [Dashboard](https://dash.blockbee.io/).
 * ``params`` is any parameter you wish to send to identify the payment, such as `{'order_id': 1234}`.
 * ``bb_params`` parameters that will be passed to BlockBee _(check which extra parameters are available here: https://docs.blockbee.io/#operation/deposit).
